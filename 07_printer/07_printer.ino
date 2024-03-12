@@ -21,12 +21,12 @@ void loop() {
     simbolo = "♥";
   }
 
-  for(int i = 0; i < pot; i++) {
+  for(int i = 0; i < pot/5; i++) {
     Serial.print(simbolo);
   }
 
   Serial.println();
   
-  delay(1);
+  delay(100);
 
 }
