@@ -5,7 +5,7 @@ void setup() {
 }
 void loop() {
 
-  Serial.println("Ciao Marco!");
+  Serial.println("Ciao!");
 
   delay(1000);    // pausa di 1000 millisecondi
 
